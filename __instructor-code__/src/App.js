@@ -1,6 +1,6 @@
-import React from "react";
-import "./App.css";
-import Nav from "./component/Nav/Nav";
+import React from 'react'
+import './App.css'
+import Nav from './components/Nav/Nav'
 import routes from './routes'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Nav />
       {routes}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
