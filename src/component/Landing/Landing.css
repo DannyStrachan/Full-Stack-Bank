@@ -1,0 +1,61 @@
+.Landing {
+    display: flex;
+    min-height: 100%;
+  }
+  .Landing .left,
+  .Landing .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px);
+  }
+  
+  .Landing .logo {
+      height: 180px;
+      width: 180px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: radial-gradient(closest-side, #999999, #6ac87a);
+      font-size: 10rem;
+      color: white;
+  }
+
+  .Landing .logo div {
+    position: relative;
+    bottom: 5px;
+  }
+
+  .Landing .form {
+      display: flex;
+      flex-direction: column;
+      height: 200px;
+      border: 2px solid black;
+      width: 60%;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem;
+  }
+  
+  .Landing input {
+    font-size: 1rem;
+    background: rgb(253, 65, 58);
+    color: white;
+    height: 24px;
+    border-radius: 8px;
+  }
+
+  ::placeholder {
+    color: rgb(46, 0, 172);
+    font-size: 1rem;
+  }
+
+  .Landing .buttons {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+  }
+  

@@ -1,0 +1,34 @@
+.Nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nav .spacer,
+.Nav .logo,
+.Nav .account-info {
+    flex: 1;
+}
+
+.Nav .logo .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, #999999, #6ac87a);
+    font-size: 3rem;
+}
+
+.logo div {
+    position: relative;
+    bottom: 1px;
+  }
+
+  .Nav .logo a {
+      text-decoration: none;
+      color: #000;
+  }
